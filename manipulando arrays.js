@@ -14,3 +14,17 @@ console.log(`A sala2 2 é: ${sala2}`);
 alunos.splice(1, 2, "Rodrigo");
 
 console.log(alunos);
+
+// Juntando arrays
+const salasUnificadas = sala1.concat(sala2);
+
+console.log(salasUnificadas);
+
+// Listas de duas dimensões
+
+const turma = ["João", "Juliana", "Caio", "Ana"];
+const media = [10, 7, 9, 6];
+
+let listaTurmaMedia = [turma, media];
+
+console.log(`${listaTurmaMedia[0][0]}, sua nota é ${listaTurmaMedia[1][0]}`)
