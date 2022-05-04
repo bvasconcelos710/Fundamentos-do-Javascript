@@ -11,7 +11,7 @@ function Cliente(nome, cpf, email, saldo) {
 }
 
 function clientePoupanca(nome, cpf, email, saldo, saldoPoup) {
-    Cliente.call(this.nome, cpf, email, saldo);
+    Cliente.call(this.nome, cpf, email, saldo)
     this.saldoPoup = saldoPoup;
 
 }
